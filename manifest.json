@@ -1,0 +1,16 @@
+{
+    "architecture": "all",
+    "description": "Component showcase gallery of the Ubuntu user interface toolkit (UITK)",
+    "framework": "ubuntu-sdk-16.04",
+    "hooks": {
+        "ubuntu-ui-toolkit-gallery": {
+            "apparmor": "ubuntu-ui-toolkit-gallery.apparmor",
+            "desktop": "ubuntu-ui-toolkit-gallery.desktop"
+        }
+    },
+    "installed-size": "3493",
+    "maintainer": "Zoltán Balogh <zoltan.balogh@ubuntu.com>",
+    "name": "ubuntu-ui-toolkit-gallery-m.mateosalta",
+    "title": "Ubuntu UI Toolkit Gallery",
+    "version": "0.6"
+}
