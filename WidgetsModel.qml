@@ -69,7 +69,7 @@ ListModel {
     }
     ListElement {
         objectName: "listItemsElement"
-        label: "List Items (old)"
+        label: "List Items (deprecated)"
         source: "ListItems.qml"
     }
     ListElement {
@@ -142,6 +142,12 @@ ListModel {
         label: "Toggles"
         source: "Toggles.qml"
     }
+    ListElement {
+        objectName: "toolbarsElement"
+        label: "Toolbar"
+        source: "Toolbars.qml"
+    }
+
     ListElement {
         objectName: "ubuntuListViewElement"
         label: "Ubuntu ListView"
