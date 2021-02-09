@@ -33,6 +33,8 @@ MainView {
         id: layout
         anchors.fill: parent
         primaryPageSource: Qt.resolvedUrl("MainPage.qml")
+        // Fix the bug of Pickers not being displayed!...
+        asynchronous: false
 
         layouts: [
             PageColumnsLayout {
